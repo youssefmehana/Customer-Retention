@@ -1,5 +1,5 @@
 # Customer-Retention
-
+This project is part of a Virtual Internship on Power BI with PwC Switzerland, offered through the Data Analytics Virtual Case Experience by Forage.
 # Problem Statement
 Janet, the Retention Manager at PhoneNow, has requested the development of a comprehensive dashboard to gain insights into customer retention for the telecom company. While the retention department currently operates reactively by reaching out to customers after they have terminated their contracts, there is a need for a proactive approach to identify at-risk customers before they leave.
 
