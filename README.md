@@ -105,14 +105,16 @@ The customer retention dataset, consisting of 23 columns and multiple observatio
 Measures used in visualization are:
 
 Churn Rate Calculation:
-```DAX
-Churn Rate = DIVIDE(
-    CALCULATE(COUNT('01 Churn-Dataset'[Churn]), '01 Churn-Dataset'[Churn] = "Yes"),
-    CALCULATE(COUNT('01 Churn-Dataset'[Churn]), ALLSELECTED('01 Churn-Dataset'[Churn]))
+```dax
+Churn Rate = 
+DIVIDE(
+    COUNTROWS(
+        FILTER('01 Churn-Dataset', '01 Churn-Dataset'[Churn] = "Yes")
+    ),
+    COUNTROWS('01 Churn-Dataset')
 )
 ```
 
-Device Protection Churn Rate:
 ```DAX
 DeviceProtectionChurnRate = DIVIDE(
     COUNTROWS(
