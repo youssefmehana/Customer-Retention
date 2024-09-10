@@ -70,35 +70,7 @@ The customer retention dataset, consisting of 23 columns and multiple observatio
        [tenure] >= 60 && [tenure] < 72, "5-6 years",
        "6+ years"
    )
-   ```
-   # Data Visualization
-
-1. **Overview Page:**
-   - **Purpose:** This page provides a high-level summary of customer churn statistics and retention rates, giving a snapshot of overall performance.
-   - **Contents:**
-     - **Total Number of Customers**: Shows the total number of customers in the dataset.
-     - **Churn Rate**: Highlights the percentage of customers who have churned.
-     - **Retention Rate**: Displays the percentage of customers retained.
-     - **Average Monthly Charges vs. Churn**: A bar chart comparing the average monthly charges for churned versus non-churned customers, providing insights into pricing factors contributing to churn.
-     - **Admin & Tech Tickets vs. Churn Status**: Visualizes the number of administrative and technical support tickets and how they correlate with churn, helping to understand service issues' impact on customer departure.
-     - **Churn Rate by Payment Method**: Shows churn rates by different payment methods (e.g., Electronic check, Bank transfer), giving insights into which payment methods correlate with higher churn.
-     - **Churn Rate by Contract**: A visual representation of churn rates by contract type (e.g., Month-to-month, One-year, Two-year contracts), offering insights into how contract length affects churn.
-
-2. **Services Page:**
-   - **Purpose:** Focuses on how different services offered by the company impact customer churn, helping to identify areas for improvement.
-   - **Contents:**
-     - **Churn Rate by Internet Service**: Compares churn rates between DSL and Fiber Optic internet service customers, identifying which service is associated with higher churn.
-     - **Churn by Service**: Lists churn percentages for individual services like Online Backup, Phone Service, Online Security, Streaming TV, and Streaming Movies, revealing which services may be driving churn.
-     - **Churn Rate by Service Count**: A line chart showing how the number of services subscribed to by a customer impacts their likelihood of churning, illustrating that customers with more services tend to churn less frequently.
-
-3. **Demographics Page:**
-   - **Purpose:** This section examines how customer demographics, such as gender, tenure, and family status, affect churn rates. It helps tailor retention strategies based on customer characteristics.
-   - **Contents:**
-     - **Churn Rate by Gender**: A donut chart showing churn rates for male and female customers, allowing the company to see if churn is higher in one gender.
-     - **Churn Rate by Partner**: Visualizes churn based on whether a customer has a partner, providing insights into how family dynamics influence customer loyalty.
-     - **Churn Rate by Dependents**: Highlights churn rates among customers with and without dependents, revealing potential retention strategies for families.
-     - **Churn Rate by Tenure Group**: A bar chart showing churn rates based on how long a customer has been with the company, helping to identify if new or long-term customers are more likely to leave.
-     - **Senior Citizen Churn Rate by Gender**: A stacked bar chart showing churn rates for senior citizens, segmented by gender, providing insights into this customer group's retention challenges.
+ 
 
 # Data Analysis
 
